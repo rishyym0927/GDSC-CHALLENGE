@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+font-family: 'Playpen Sans';
+
+    
+
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(17, 16, 16);
+}
+
+.main{
+    width: 50rem;
+    background-color: white;
+    height: 32rem;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px ;
+    transition-duration: 600ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main:hover{
+    scale: 1.01;
+    box-shadow: 10px 10px 25px 0 rgba(252, 109, 219, 0.2), 0 1px 20px 0 rgba(254, 31, 202, 0.19);
+
+}
+
+.container{
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;
+    
+  
+}
+
+.author{
+    font-size: 0.8rem;
+}
+
+.box2{
+    height: 18rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(52, 19, 95);
+}
+
+.box{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+    transition-duration: 200ms;
+}
+
+.box:hover{
+    scale: 1.07;
+    background-color: rgb(52, 19, 25);
+    color: white;
+}
